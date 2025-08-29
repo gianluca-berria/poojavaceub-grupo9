@@ -16,3 +16,5 @@ class Professor {
     + cumprimentar(): void
   }
 ```
+
+*https://github.com/marcosfrancisco/aulapoo/blob/main/aulaclasses.md*
