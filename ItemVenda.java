@@ -9,7 +9,7 @@ public class ItemVenda{
         this.subtotal = 0.0;
     }
     public double calcularSubtotal(){
-        return subtotal = produto.preco * quantidade;
+        return subtotal = produto.getPreco() * quantidade;
     }
     public Produto getProduto(){
         return this.produto;
@@ -17,4 +17,5 @@ public class ItemVenda{
     public int getQuantidade(){
         return quantidade;
     }
+
 }
