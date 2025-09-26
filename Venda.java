@@ -35,4 +35,8 @@ public class Venda{
     public double getValorTotal(){
         return calcularTotal();
     }
+    public int getId() {
+    return id;
+    }
 }
+
