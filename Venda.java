@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -18,6 +17,12 @@ public class Venda{
     public void adicionarProduto(Produto p, int qtd){
         ItemVenda item = new ItemVenda(p, qtd);
         this.itens.add(item);
+    }
+    public void exibirItens() {
+    for (ItemVenda item : itens) {
+        System.out.println(item.getQuantidade() + "x " + item.getProduto().getNome() + 
+                           " (R$ " + item.getProduto().getPreco() + " cada)");
+        }
     }
     private double calcularTotal(){
         double total = 0.0;
